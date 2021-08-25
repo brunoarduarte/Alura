@@ -1,5 +1,3 @@
-UPDATE Vendedores SET Comissão = 11
-WHERE Matrícula = 236;
-
-UPDATE Vendedores SET Nome = 'José Geraldo da Fonseca Junior'
-WHERE Matrícula = 233;
+INSERT INTO Vendedores (Matrícula, Nome, Comissão)
+VALUES (00235, 'Márcio Almeida Silva', 8),
+(00236, 'Cláudia Morais', 8);
