@@ -1,0 +1,1 @@
+ALTER TABLE notas_fiscais RENAME NOTAS;
