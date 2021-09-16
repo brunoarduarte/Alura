@@ -1,0 +1,36 @@
+START TRANSACTION;
+
+INSERT INTO `sucos_vendas`.`CLIENTES`
+(`CPF`,
+`NOME`,
+`ENDERECO_1`,
+`ENDERECO_2`,
+`BAIRRO`,
+`CIDADE`,
+`ESTADO`,
+`CEP`,
+`DATA_DE_NASCIMENTO`,
+`IDADE`,
+`SEXO`,
+`LIMITE_DE_CREDITO`,
+`VOLUME_DE_COMPRA`,
+`PRIMEIRA_COMPRA`)
+VALUES
+(72659793151,
+'José da Silva Mardonni',
+'Rua Alfredo Borges de Medeiros, número 4',
+'',
+'Niterói',
+'Rio de Janeiro',
+'RJ',
+01005023,
+'2000-02-20',
+21,
+'M',
+12000,
+0,
+0);
+
+SELECT * FROM CLIENTES;
+
+ROLLBACK;
