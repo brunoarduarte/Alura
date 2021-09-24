@@ -16,7 +16,7 @@ BEGIN
 	SET vVariacao = ((vFaturamento1 / vFaturamento2) -1) * 100;
 	IF vVariacao > 10 THEN
 		SET vMsg = "VERDE";
-	ELSEIF vVariacao >= -10 AND vVariacao >= 10 THEN
+	ELSEIF vVariacao >= -10 AND vVariacao <= 10 THEN
 		SET vMsg = "AMARELO";
 	ELSE
 		SET vMsg = "VERMELHO";
